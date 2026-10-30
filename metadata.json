@@ -1,0 +1,9 @@
+{
+  "uuid": "spotify-autoeq-status@hllerden.github.io",
+  "name": "Spotify AutoEQ Status",
+  "description": "Panel indicator for spotify-autoeq: shows the genre-based equalizer profile that is currently applied to the Spotify track. Read-only; requires spotify-autoeq 1.1 or newer.",
+  "shell-version": ["42"],
+  "gettext-domain": "spotify-autoeq-status",
+  "url": "https://github.com/hllerden/spotify-autoeq-gnome",
+  "version": 1
+}
