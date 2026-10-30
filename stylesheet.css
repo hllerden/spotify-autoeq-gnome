@@ -1,0 +1,49 @@
+/* Spotify AutoEQ Status. St CSS subset: no variables, no flexbox, no blur.
+ * Surfaces, item padding and hover come from the shell theme; this file only
+ * styles the extension's own parts. */
+
+/* panel */
+.autoeq-panel-box { spacing: 6px; }
+.autoeq-panel-label { width: 88px; text-align: center; }
+.autoeq-off .autoeq-panel-label,
+.autoeq-error .autoeq-panel-label { font-weight: normal; }
+.autoeq-off .autoeq-panel-label,
+.autoeq-off .autoeq-panel-icon { color: #9a9996; }
+
+/* menu */
+.autoeq-menu { width: 340px; }
+.autoeq-row { padding: 9px 16px; spacing: 4px; }
+.autoeq-row-tight { padding: 6px 16px 12px 16px; spacing: 6px; }
+.autoeq-caption { font-size: 9pt; }
+.autoeq-value { font-weight: bold; }
+.autoeq-track { font-weight: 500; }
+.autoeq-note { font-size: 9pt; }
+.autoeq-profile { font-size: 16pt; font-weight: bold; }
+.autoeq-band-label { font-size: 8pt; text-align: center; }
+.autoeq-chip { font-size: 10pt; padding: 2px 10px; border-radius: 999px; border: 1px solid; max-width: 180px; }
+.autoeq-source { font-size: 9pt; font-weight: 500; }
+.autoeq-banner-wrap { padding: 3px 12px 6px 12px; }
+.autoeq-error-banner { background-color: #c01c28; color: #ffffff; border-radius: 8px; padding: 8px 12px; spacing: 8px; font-size: 10pt; }
+.autoeq-curve { width: 308px; height: 80px; }
+.autoeq-title-row { padding: 9px 16px 6px 16px; }
+.autoeq-title { font-size: 12pt; font-weight: bold; }
+.autoeq-link { font-size: 9pt; text-decoration: underline; padding: 2px 8px; border-radius: 6px; }
+.autoeq-link:hover, .autoeq-link:focus { background-color: rgba(128, 128, 128, 0.25); }
+
+/* dark */
+.autoeq-dark .autoeq-caption,
+.autoeq-dark .autoeq-muted,
+.autoeq-dark .autoeq-note,
+.autoeq-dark .autoeq-band-label { color: #c0bfbc; }
+.autoeq-dark .autoeq-link { color: #99c1f1; }
+.autoeq-dark .autoeq-chip { background-color: #454545; border-color: #5a5a5a; }
+.autoeq-dark .autoeq-curve { color: #99c1f1; -autoeq-muted: #9a9996; -autoeq-zero: #77767b; -autoeq-bound: #454545; }
+
+/* light */
+.autoeq-light .autoeq-caption,
+.autoeq-light .autoeq-muted,
+.autoeq-light .autoeq-note,
+.autoeq-light .autoeq-band-label { color: #5e5c64; }
+.autoeq-light .autoeq-link { color: #1a5fb4; }
+.autoeq-light .autoeq-chip { background-color: #f6f5f4; border-color: #deddda; }
+.autoeq-light .autoeq-curve { color: #1c71d8; -autoeq-muted: #77767b; -autoeq-zero: #9a9996; -autoeq-bound: #ebebeb; }
